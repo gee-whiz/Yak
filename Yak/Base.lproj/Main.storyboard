@@ -5,6 +5,7 @@
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.14"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -42,7 +43,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ubv-lR-hrO">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ubv-lR-hrO" customClass="GradientView" customModule="Yak" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="77"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4UD-aa-5nK">
@@ -93,18 +94,70 @@
                         <viewControllerLayoutGuide type="top" id="ekH-Mk-CKc"/>
                         <viewControllerLayoutGuide type="bottom" id="F09-t1-SAW"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="5PP-tK-ULK">
+                    <view key="view" contentMode="scaleToFill" id="5PP-tK-ULK" customClass="GradientView" customModule="Yak" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yak" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SrD-2T-QhM">
+                                <rect key="frame" x="16" y="44" width="30" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Channels" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bH8-NA-MaG">
+                                <rect key="frame" x="16" y="81" width="73.5" height="22"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nBz-sm-dWW">
+                                <rect key="frame" x="100" y="592.5" width="43" height="33"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                <state key="normal" title="Login">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profileDefault" translatesAutoresizingMaskIntoConstraints="NO" id="fYf-rM-Yl5">
+                                <rect key="frame" x="16" y="575" width="68" height="68"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="68" id="0l4-d0-6y4"/>
+                                    <constraint firstAttribute="height" constant="68" id="mfa-sh-htX"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QbD-84-F1q">
+                                <rect key="frame" x="265" y="81" width="22" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="AZP-Z4-sJX"/>
+                                    <constraint firstAttribute="width" constant="22" id="eff-CA-inx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" image="addChannelButton"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="bH8-NA-MaG" firstAttribute="leading" secondItem="5PP-tK-ULK" secondAttribute="leadingMargin" id="0bq-a4-Vfy"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="QbD-84-F1q" secondAttribute="trailing" constant="72" id="1lr-Ew-Mdr"/>
+                            <constraint firstItem="QbD-84-F1q" firstAttribute="bottom" secondItem="bH8-NA-MaG" secondAttribute="bottom" id="KEz-8b-k0S"/>
+                            <constraint firstItem="bH8-NA-MaG" firstAttribute="top" secondItem="SrD-2T-QhM" secondAttribute="bottom" constant="16" id="UeB-Jq-4OC"/>
+                            <constraint firstItem="fYf-rM-Yl5" firstAttribute="leading" secondItem="5PP-tK-ULK" secondAttribute="leadingMargin" id="XvB-vx-tj4"/>
+                            <constraint firstItem="SrD-2T-QhM" firstAttribute="top" secondItem="ekH-Mk-CKc" secondAttribute="bottom" constant="24" id="aXR-O6-TNG"/>
+                            <constraint firstItem="SrD-2T-QhM" firstAttribute="leading" secondItem="5PP-tK-ULK" secondAttribute="leadingMargin" id="eJH-cs-Nzz"/>
+                            <constraint firstItem="nBz-sm-dWW" firstAttribute="centerY" secondItem="fYf-rM-Yl5" secondAttribute="centerY" id="n26-Wc-1qx"/>
+                            <constraint firstItem="F09-t1-SAW" firstAttribute="top" secondItem="fYf-rM-Yl5" secondAttribute="bottom" constant="24" id="pZi-UK-bkb"/>
+                            <constraint firstItem="nBz-sm-dWW" firstAttribute="leading" secondItem="fYf-rM-Yl5" secondAttribute="trailing" constant="16" id="vsJ-8p-uQx"/>
+                            <constraint firstItem="QbD-84-F1q" firstAttribute="top" secondItem="bH8-NA-MaG" secondAttribute="top" id="y64-c7-AUy"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sqL-VH-Lcw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="164" y="548"/>
+            <point key="canvasLocation" x="357.60000000000002" y="534.78260869565224"/>
         </scene>
     </scenes>
     <resources>
+        <image name="addChannelButton" width="22" height="22"/>
+        <image name="profileDefault" width="192" height="192"/>
         <image name="smackBurger" width="40" height="40"/>
     </resources>
 </document>
