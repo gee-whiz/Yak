@@ -1,0 +1,6 @@
+framework module Pods_Yak {
+  umbrella header "Pods-Yak-umbrella.h"
+
+  export *
+  module * { export * }
+}

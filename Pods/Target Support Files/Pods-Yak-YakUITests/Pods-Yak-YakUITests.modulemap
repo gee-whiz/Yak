@@ -1,0 +1,6 @@
+framework module Pods_Yak_YakUITests {
+  umbrella header "Pods-Yak-YakUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

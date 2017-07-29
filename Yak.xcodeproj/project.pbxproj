@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		035DD423D254554C6F7FB89A /* Pods_YakTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD9C496DE903B4E6B6E5A12D /* Pods_YakTests.framework */; };
+		07B43BFE42D7B801F8A9D80C /* Pods_Yak_YakUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11F9403C799C3BC6773D9C0B /* Pods_Yak_YakUITests.framework */; };
 		5E5AD7EB1F2ABF0900C47EE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5AD7EA1F2ABF0900C47EE0 /* AppDelegate.swift */; };
 		5E5AD7ED1F2ABF0900C47EE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5AD7EC1F2ABF0900C47EE0 /* ViewController.swift */; };
 		5E5AD7F01F2ABF0900C47EE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E5AD7EE1F2ABF0900C47EE0 /* Main.storyboard */; };
@@ -14,6 +16,8 @@
 		5E5AD7F51F2ABF0900C47EE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E5AD7F31F2ABF0900C47EE0 /* LaunchScreen.storyboard */; };
 		5E5AD8001F2ABF0900C47EE0 /* YakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5AD7FF1F2ABF0900C47EE0 /* YakTests.swift */; };
 		5E5AD80B1F2ABF0900C47EE0 /* YakUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5AD80A1F2ABF0900C47EE0 /* YakUITests.swift */; };
+		5E5DD9961F2C599200A5BBFD /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5DD9951F2C599100A5BBFD /* SWRevealViewController.m */; };
+		7A01AE4D10875FCC08943FC8 /* Pods_Yak.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6F9C280F1563924C30BCBD9 /* Pods_Yak.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F6F0BBC760D2CB0ABB4AB5E /* Pods-Yak-YakUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yak-YakUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Yak-YakUITests/Pods-Yak-YakUITests.release.xcconfig"; sourceTree = "<group>"; };
+		11F9403C799C3BC6773D9C0B /* Pods_Yak_YakUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yak_YakUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53B398DB8ADF3EE7DF7F6292 /* Pods-Yak.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yak.release.xcconfig"; path = "Pods/Target Support Files/Pods-Yak/Pods-Yak.release.xcconfig"; sourceTree = "<group>"; };
+		5695D5086F7DA50C30E90B85 /* Pods-Yak.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yak.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Yak/Pods-Yak.debug.xcconfig"; sourceTree = "<group>"; };
 		5E5AD7E71F2ABF0900C47EE0 /* Yak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E5AD7EA1F2ABF0900C47EE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E5AD7EC1F2ABF0900C47EE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,14 @@
 		5E5AD8061F2ABF0900C47EE0 /* YakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YakUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E5AD80A1F2ABF0900C47EE0 /* YakUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YakUITests.swift; sourceTree = "<group>"; };
 		5E5AD80C1F2ABF0900C47EE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E5DD9931F2C599000A5BBFD /* Yak-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Yak-Bridging-Header.h"; sourceTree = "<group>"; };
+		5E5DD9941F2C599100A5BBFD /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "../../../Downloads/Smack Assets/SWReveal/SWRevealViewController.h"; sourceTree = "<group>"; };
+		5E5DD9951F2C599100A5BBFD /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = "../../../Downloads/Smack Assets/SWReveal/SWRevealViewController.m"; sourceTree = "<group>"; };
+		6AC45C82ECBF1FBC08B2B1E5 /* Pods-YakTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YakTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YakTests/Pods-YakTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A025D3DAC03E18424E247D76 /* Pods-Yak-YakUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yak-YakUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Yak-YakUITests/Pods-Yak-YakUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CD9C496DE903B4E6B6E5A12D /* Pods_YakTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YakTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6F9C280F1563924C30BCBD9 /* Pods_Yak.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yak.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9603F97F71C3D62436A229D /* Pods-YakTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YakTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YakTests/Pods-YakTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A01AE4D10875FCC08943FC8 /* Pods_Yak.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				035DD423D254554C6F7FB89A /* Pods_YakTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +86,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07B43BFE42D7B801F8A9D80C /* Pods_Yak_YakUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E19517C9065A6B256FB6B78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6F9C280F1563924C30BCBD9 /* Pods_Yak.framework */,
+				11F9403C799C3BC6773D9C0B /* Pods_Yak_YakUITests.framework */,
+				CD9C496DE903B4E6B6E5A12D /* Pods_YakTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5E5AD7DE1F2ABF0900C47EE0 = {
 			isa = PBXGroup;
 			children = (
+				5E5DD9941F2C599100A5BBFD /* SWRevealViewController.h */,
+				5E5DD9951F2C599100A5BBFD /* SWRevealViewController.m */,
 				5E5AD7E91F2ABF0900C47EE0 /* Yak */,
 				5E5AD7FE1F2ABF0900C47EE0 /* YakTests */,
 				5E5AD8091F2ABF0900C47EE0 /* YakUITests */,
 				5E5AD7E81F2ABF0900C47EE0 /* Products */,
+				A83455173A46A3F0C0FB4CBA /* Pods */,
+				1E19517C9065A6B256FB6B78 /* Frameworks */,
+				5E5DD9931F2C599000A5BBFD /* Yak-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +159,19 @@
 			path = YakUITests;
 			sourceTree = "<group>";
 		};
+		A83455173A46A3F0C0FB4CBA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5695D5086F7DA50C30E90B85 /* Pods-Yak.debug.xcconfig */,
+				53B398DB8ADF3EE7DF7F6292 /* Pods-Yak.release.xcconfig */,
+				A025D3DAC03E18424E247D76 /* Pods-Yak-YakUITests.debug.xcconfig */,
+				0F6F0BBC760D2CB0ABB4AB5E /* Pods-Yak-YakUITests.release.xcconfig */,
+				6AC45C82ECBF1FBC08B2B1E5 /* Pods-YakTests.debug.xcconfig */,
+				E9603F97F71C3D62436A229D /* Pods-YakTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E5AD80F1F2ABF0900C47EE0 /* Build configuration list for PBXNativeTarget "Yak" */;
 			buildPhases = (
+				16120DE08B85ABDD0DEC235A /* [CP] Check Pods Manifest.lock */,
 				5E5AD7E31F2ABF0900C47EE0 /* Sources */,
 				5E5AD7E41F2ABF0900C47EE0 /* Frameworks */,
 				5E5AD7E51F2ABF0900C47EE0 /* Resources */,
+				BE6800A545986A2171C3AFA4 /* [CP] Embed Pods Frameworks */,
+				29C2B36183F6FC45670E500C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +199,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E5AD8121F2ABF0900C47EE0 /* Build configuration list for PBXNativeTarget "YakTests" */;
 			buildPhases = (
+				B557E56C37439C407F0146CC /* [CP] Check Pods Manifest.lock */,
 				5E5AD7F71F2ABF0900C47EE0 /* Sources */,
 				5E5AD7F81F2ABF0900C47EE0 /* Frameworks */,
 				5E5AD7F91F2ABF0900C47EE0 /* Resources */,
+				E857226BF9D6B7521291AD8B /* [CP] Embed Pods Frameworks */,
+				86F35E5502532DA00D6E7548 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +220,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E5AD8151F2ABF0900C47EE0 /* Build configuration list for PBXNativeTarget "YakUITests" */;
 			buildPhases = (
+				F4F047CC8F60D31A43858C37 /* [CP] Check Pods Manifest.lock */,
 				5E5AD8021F2ABF0900C47EE0 /* Sources */,
 				5E5AD8031F2ABF0900C47EE0 /* Frameworks */,
 				5E5AD8041F2ABF0900C47EE0 /* Resources */,
+				25DBFA05900A0DCD7AA9D55A /* [CP] Embed Pods Frameworks */,
+				005EEF69DEFD5F96B0299E6E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,13 +249,16 @@
 				TargetAttributes = {
 					5E5AD7E61F2ABF0900C47EE0 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 					};
 					5E5AD7FA1F2ABF0900C47EE0 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 						TestTargetID = 5E5AD7E61F2ABF0900C47EE0;
 					};
 					5E5AD8051F2ABF0900C47EE0 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 						TestTargetID = 5E5AD7E61F2ABF0900C47EE0;
 					};
 				};
@@ -251,6 +310,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		005EEF69DEFD5F96B0299E6E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yak-YakUITests/Pods-Yak-YakUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		16120DE08B85ABDD0DEC235A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		25DBFA05900A0DCD7AA9D55A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yak-YakUITests/Pods-Yak-YakUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29C2B36183F6FC45670E500C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yak/Pods-Yak-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86F35E5502532DA00D6E7548 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YakTests/Pods-YakTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B557E56C37439C407F0146CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BE6800A545986A2171C3AFA4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yak/Pods-Yak-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E857226BF9D6B7521291AD8B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YakTests/Pods-YakTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4F047CC8F60D31A43858C37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5E5AD7E31F2ABF0900C47EE0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -258,6 +455,7 @@
 			files = (
 				5E5AD7ED1F2ABF0900C47EE0 /* ViewController.swift in Sources */,
 				5E5AD7EB1F2ABF0900C47EE0 /* AppDelegate.swift in Sources */,
+				5E5DD9961F2C599200A5BBFD /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,13 +615,18 @@
 		};
 		5E5AD8101F2ABF0900C47EE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5695D5086F7DA50C30E90B85 /* Pods-Yak.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = XG8766C4Q9;
 				INFOPLIST_FILE = Yak/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = za.immedia.Yak;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Yak-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -431,13 +634,17 @@
 		};
 		5E5AD8111F2ABF0900C47EE0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53B398DB8ADF3EE7DF7F6292 /* Pods-Yak.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = XG8766C4Q9;
 				INFOPLIST_FILE = Yak/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = za.immedia.Yak;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Yak-Bridging-Header.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -445,6 +652,7 @@
 		};
 		5E5AD8131F2ABF0900C47EE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AC45C82ECBF1FBC08B2B1E5 /* Pods-YakTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -453,6 +661,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = za.immedia.YakTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yak.app/Yak";
@@ -461,6 +670,7 @@
 		};
 		5E5AD8141F2ABF0900C47EE0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9603F97F71C3D62436A229D /* Pods-YakTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +679,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = za.immedia.YakTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yak.app/Yak";
@@ -477,6 +688,7 @@
 		};
 		5E5AD8161F2ABF0900C47EE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A025D3DAC03E18424E247D76 /* Pods-Yak-YakUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = XG8766C4Q9;
@@ -484,6 +696,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = za.immedia.YakUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Yak;
@@ -492,6 +705,7 @@
 		};
 		5E5AD8171F2ABF0900C47EE0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F6F0BBC760D2CB0ABB4AB5E /* Pods-Yak-YakUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = XG8766C4Q9;
@@ -499,6 +713,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = za.immedia.YakUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Yak;
@@ -524,6 +739,7 @@
 				5E5AD8111F2ABF0900C47EE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E5AD8121F2ABF0900C47EE0 /* Build configuration list for PBXNativeTarget "YakTests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +748,7 @@
 				5E5AD8141F2ABF0900C47EE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E5AD8151F2ABF0900C47EE0 /* Build configuration list for PBXNativeTarget "YakUITests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +757,7 @@
 				5E5AD8171F2ABF0900C47EE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
