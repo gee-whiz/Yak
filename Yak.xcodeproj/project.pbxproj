@@ -17,6 +17,8 @@
 		5E5AD8001F2ABF0900C47EE0 /* YakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5AD7FF1F2ABF0900C47EE0 /* YakTests.swift */; };
 		5E5AD80B1F2ABF0900C47EE0 /* YakUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5AD80A1F2ABF0900C47EE0 /* YakUITests.swift */; };
 		5E5DD9961F2C599200A5BBFD /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5DD9951F2C599100A5BBFD /* SWRevealViewController.m */; };
+		5E5DD99B1F2C5C5200A5BBFD /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5DD99A1F2C5C5200A5BBFD /* ChatVC.swift */; };
+		5E5DD99D1F2C5C6400A5BBFD /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5DD99C1F2C5C6400A5BBFD /* ChannelVC.swift */; };
 		7A01AE4D10875FCC08943FC8 /* Pods_Yak.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6F9C280F1563924C30BCBD9 /* Pods_Yak.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +60,8 @@
 		5E5DD9931F2C599000A5BBFD /* Yak-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Yak-Bridging-Header.h"; sourceTree = "<group>"; };
 		5E5DD9941F2C599100A5BBFD /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "../../../Downloads/Smack Assets/SWReveal/SWRevealViewController.h"; sourceTree = "<group>"; };
 		5E5DD9951F2C599100A5BBFD /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = "../../../Downloads/Smack Assets/SWReveal/SWRevealViewController.m"; sourceTree = "<group>"; };
+		5E5DD99A1F2C5C5200A5BBFD /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		5E5DD99C1F2C5C6400A5BBFD /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		6AC45C82ECBF1FBC08B2B1E5 /* Pods-YakTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YakTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YakTests/Pods-YakTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A025D3DAC03E18424E247D76 /* Pods-Yak-YakUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yak-YakUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Yak-YakUITests/Pods-Yak-YakUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		CD9C496DE903B4E6B6E5A12D /* Pods_YakTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YakTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -131,8 +135,10 @@
 		5E5AD7E91F2ABF0900C47EE0 /* Yak */ = {
 			isa = PBXGroup;
 			children = (
+				5E5DD9971F2C5C0E00A5BBFD /* Model */,
+				5E5DD9991F2C5C2B00A5BBFD /* View */,
+				5E5DD9981F2C5C1E00A5BBFD /* Controller */,
 				5E5AD7EA1F2ABF0900C47EE0 /* AppDelegate.swift */,
-				5E5AD7EC1F2ABF0900C47EE0 /* ViewController.swift */,
 				5E5AD7EE1F2ABF0900C47EE0 /* Main.storyboard */,
 				5E5AD7F11F2ABF0900C47EE0 /* Assets.xcassets */,
 				5E5AD7F31F2ABF0900C47EE0 /* LaunchScreen.storyboard */,
@@ -157,6 +163,30 @@
 				5E5AD80C1F2ABF0900C47EE0 /* Info.plist */,
 			);
 			path = YakUITests;
+			sourceTree = "<group>";
+		};
+		5E5DD9971F2C5C0E00A5BBFD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5E5DD9981F2C5C1E00A5BBFD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5E5AD7EC1F2ABF0900C47EE0 /* ViewController.swift */,
+				5E5DD99A1F2C5C5200A5BBFD /* ChatVC.swift */,
+				5E5DD99C1F2C5C6400A5BBFD /* ChannelVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5E5DD9991F2C5C2B00A5BBFD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		A83455173A46A3F0C0FB4CBA /* Pods */ = {
@@ -453,9 +483,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E5DD99B1F2C5C5200A5BBFD /* ChatVC.swift in Sources */,
 				5E5AD7ED1F2ABF0900C47EE0 /* ViewController.swift in Sources */,
 				5E5AD7EB1F2ABF0900C47EE0 /* AppDelegate.swift in Sources */,
 				5E5DD9961F2C599200A5BBFD /* SWRevealViewController.m in Sources */,
+				5E5DD99D1F2C5C6400A5BBFD /* ChannelVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
