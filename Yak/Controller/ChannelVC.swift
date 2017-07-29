@@ -10,6 +10,8 @@ import UIKit
 
 class ChannelVC: UIViewController {
 
+    @IBOutlet weak var imgProfile: UIImageView!
+    @IBOutlet weak var btnLogin: UIButton!
     @IBOutlet weak var btnMenu: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,7 +20,11 @@ class ChannelVC: UIViewController {
     }
 
     
-
+ 
+    @IBAction func btnLoginTapped(_ sender: Any) {
+        
+        self.performSegue(withIdentifier: SHOW_LOGIN, sender: self)
+    }
     
 
 }

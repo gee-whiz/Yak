@@ -8,6 +8,7 @@ target 'Yak' do
   pod 'Alamofire'
   pod 'SwiftyJSON'
   pod 'Socket.IO-Client-Swift'
+
   target 'YakTests' do
     inherit! :search_paths
     # Pods for testing

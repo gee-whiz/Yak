@@ -9,7 +9,12 @@
 /* Begin PBXBuildFile section */
 		035DD423D254554C6F7FB89A /* Pods_YakTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD9C496DE903B4E6B6E5A12D /* Pods_YakTests.framework */; };
 		07B43BFE42D7B801F8A9D80C /* Pods_Yak_YakUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11F9403C799C3BC6773D9C0B /* Pods_Yak_YakUITests.framework */; };
+		5E17FDF71F2CB17500FF3642 /* LoginVCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E17FDF61F2CB17500FF3642 /* LoginVCView.swift */; };
+		5E17FDF91F2CB42400FF3642 /* FloatingTextFeild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E17FDF81F2CB42400FF3642 /* FloatingTextFeild.swift */; };
+		5E17FDFB1F2CC6E900FF3642 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E17FDFA1F2CC6E900FF3642 /* RegisterVC.swift */; };
 		5E2231351F2C6C15006DBB17 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2231341F2C6C15006DBB17 /* GradientView.swift */; };
+		5E2231381F2C75A9006DBB17 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2231371F2C75A9006DBB17 /* Constants.swift */; };
+		5E22313A1F2C7B98006DBB17 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2231391F2C7B98006DBB17 /* Extension.swift */; };
 		5E5AD7EB1F2ABF0900C47EE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5AD7EA1F2ABF0900C47EE0 /* AppDelegate.swift */; };
 		5E5AD7ED1F2ABF0900C47EE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5AD7EC1F2ABF0900C47EE0 /* ViewController.swift */; };
 		5E5AD7F01F2ABF0900C47EE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E5AD7EE1F2ABF0900C47EE0 /* Main.storyboard */; };
@@ -45,7 +50,12 @@
 		11F9403C799C3BC6773D9C0B /* Pods_Yak_YakUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yak_YakUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		53B398DB8ADF3EE7DF7F6292 /* Pods-Yak.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yak.release.xcconfig"; path = "Pods/Target Support Files/Pods-Yak/Pods-Yak.release.xcconfig"; sourceTree = "<group>"; };
 		5695D5086F7DA50C30E90B85 /* Pods-Yak.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yak.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Yak/Pods-Yak.debug.xcconfig"; sourceTree = "<group>"; };
+		5E17FDF61F2CB17500FF3642 /* LoginVCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVCView.swift; sourceTree = "<group>"; };
+		5E17FDF81F2CB42400FF3642 /* FloatingTextFeild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingTextFeild.swift; sourceTree = "<group>"; };
+		5E17FDFA1F2CC6E900FF3642 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
 		5E2231341F2C6C15006DBB17 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		5E2231371F2C75A9006DBB17 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5E2231391F2C7B98006DBB17 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		5E5AD7E71F2ABF0900C47EE0 /* Yak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E5AD7EA1F2ABF0900C47EE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E5AD7EC1F2ABF0900C47EE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +119,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		5E2231361F2C7593006DBB17 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5E2231371F2C75A9006DBB17 /* Constants.swift */,
+				5E2231391F2C7B98006DBB17 /* Extension.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		5E5AD7DE1F2ABF0900C47EE0 = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +156,7 @@
 		5E5AD7E91F2ABF0900C47EE0 /* Yak */ = {
 			isa = PBXGroup;
 			children = (
+				5E2231361F2C7593006DBB17 /* Utils */,
 				5E5DD9971F2C5C0E00A5BBFD /* Model */,
 				5E5DD9991F2C5C2B00A5BBFD /* View */,
 				5E5DD9981F2C5C1E00A5BBFD /* Controller */,
@@ -180,6 +200,8 @@
 				5E5AD7EC1F2ABF0900C47EE0 /* ViewController.swift */,
 				5E5DD99A1F2C5C5200A5BBFD /* ChatVC.swift */,
 				5E5DD99C1F2C5C6400A5BBFD /* ChannelVC.swift */,
+				5E17FDF61F2CB17500FF3642 /* LoginVCView.swift */,
+				5E17FDFA1F2CC6E900FF3642 /* RegisterVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -188,6 +210,7 @@
 			isa = PBXGroup;
 			children = (
 				5E2231341F2C6C15006DBB17 /* GradientView.swift */,
+				5E17FDF81F2CB42400FF3642 /* FloatingTextFeild.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -488,10 +511,15 @@
 			files = (
 				5E5DD99B1F2C5C5200A5BBFD /* ChatVC.swift in Sources */,
 				5E5AD7ED1F2ABF0900C47EE0 /* ViewController.swift in Sources */,
+				5E17FDF71F2CB17500FF3642 /* LoginVCView.swift in Sources */,
 				5E2231351F2C6C15006DBB17 /* GradientView.swift in Sources */,
+				5E17FDFB1F2CC6E900FF3642 /* RegisterVC.swift in Sources */,
 				5E5AD7EB1F2ABF0900C47EE0 /* AppDelegate.swift in Sources */,
+				5E2231381F2C75A9006DBB17 /* Constants.swift in Sources */,
 				5E5DD9961F2C599200A5BBFD /* SWRevealViewController.m in Sources */,
 				5E5DD99D1F2C5C6400A5BBFD /* ChannelVC.swift in Sources */,
+				5E22313A1F2C7B98006DBB17 /* Extension.swift in Sources */,
+				5E17FDF91F2CB42400FF3642 /* FloatingTextFeild.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
