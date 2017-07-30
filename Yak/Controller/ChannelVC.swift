@@ -13,6 +13,8 @@ class ChannelVC: UIViewController {
     @IBOutlet weak var imgProfile: UIImageView!
     @IBOutlet weak var btnLogin: UIButton!
     @IBOutlet weak var btnMenu: UIButton!
+    @IBAction func prepareForUnwind(segue: UIStoryboardSegue){}
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

@@ -22,7 +22,7 @@ class RegisterVC: UIViewController {
 
     
     @IBAction func btnCancelTapped(_ sender: Any) {
-        self.dismiss(animated: false, completion: nil)
+       self.performSegue(withIdentifier: UNWIND_TO_CHANNEL, sender: self)
     }
     
     
