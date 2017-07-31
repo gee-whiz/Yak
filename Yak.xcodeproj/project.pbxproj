@@ -26,6 +26,8 @@
 		5E5DD99B1F2C5C5200A5BBFD /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5DD99A1F2C5C5200A5BBFD /* ChatVC.swift */; };
 		5E5DD99D1F2C5C6400A5BBFD /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5DD99C1F2C5C6400A5BBFD /* ChannelVC.swift */; };
 		5E624A161F2E65B800466FE2 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E624A151F2E65B800466FE2 /* AuthService.swift */; };
+		5E624A181F2E7A7F00466FE2 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E624A171F2E7A7F00466FE2 /* RoundedButton.swift */; };
+		5E624A1A1F2F0F1400466FE2 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E624A191F2F0F1400466FE2 /* UserDataService.swift */; };
 		7A01AE4D10875FCC08943FC8 /* Pods_Yak.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6F9C280F1563924C30BCBD9 /* Pods_Yak.framework */; };
 /* End PBXBuildFile section */
 
@@ -76,6 +78,8 @@
 		5E5DD99A1F2C5C5200A5BBFD /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		5E5DD99C1F2C5C6400A5BBFD /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		5E624A151F2E65B800466FE2 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		5E624A171F2E7A7F00466FE2 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		5E624A191F2F0F1400466FE2 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 		6AC45C82ECBF1FBC08B2B1E5 /* Pods-YakTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YakTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YakTests/Pods-YakTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A025D3DAC03E18424E247D76 /* Pods-Yak-YakUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yak-YakUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Yak-YakUITests/Pods-Yak-YakUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		CD9C496DE903B4E6B6E5A12D /* Pods_YakTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YakTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -214,6 +218,7 @@
 			children = (
 				5E2231341F2C6C15006DBB17 /* GradientView.swift */,
 				5E17FDF81F2CB42400FF3642 /* FloatingTextFeild.swift */,
+				5E624A171F2E7A7F00466FE2 /* RoundedButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -222,6 +227,7 @@
 			isa = PBXGroup;
 			children = (
 				5E624A151F2E65B800466FE2 /* AuthService.swift */,
+				5E624A191F2F0F1400466FE2 /* UserDataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -522,6 +528,7 @@
 			files = (
 				5E5DD99B1F2C5C5200A5BBFD /* ChatVC.swift in Sources */,
 				5E5AD7ED1F2ABF0900C47EE0 /* ViewController.swift in Sources */,
+				5E624A1A1F2F0F1400466FE2 /* UserDataService.swift in Sources */,
 				5E17FDF71F2CB17500FF3642 /* LoginVCView.swift in Sources */,
 				5E624A161F2E65B800466FE2 /* AuthService.swift in Sources */,
 				5E2231351F2C6C15006DBB17 /* GradientView.swift in Sources */,
@@ -532,6 +539,7 @@
 				5E5DD99D1F2C5C6400A5BBFD /* ChannelVC.swift in Sources */,
 				5E22313A1F2C7B98006DBB17 /* Extension.swift in Sources */,
 				5E17FDF91F2CB42400FF3642 /* FloatingTextFeild.swift in Sources */,
+				5E624A181F2E7A7F00466FE2 /* RoundedButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

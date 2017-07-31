@@ -286,7 +286,7 @@
                                     </textField>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8M0-QS-1VT">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8M0-QS-1VT" customClass="RoundedButton" customModule="Yak" customModuleProvider="target">
                                 <rect key="frame" x="37" y="340" width="300" height="40"/>
                                 <color key="backgroundColor" red="0.36470588235294116" green="0.72941176470588232" blue="0.84705882352941175" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -296,6 +296,11 @@
                                 <state key="normal" title="Login">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="btnLogin:" destination="kyb-ez-Fuk" eventType="touchUpInside" id="BBp-pF-W0L"/>
                                 </connections>
@@ -473,7 +478,7 @@
                                     <action selector="btnChangeBackGroundTapped:" destination="293-ba-xb0" eventType="touchUpInside" id="3Mi-nV-QlT"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UC8-lp-HNI">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UC8-lp-HNI" customClass="RoundedButton" customModule="Yak" customModuleProvider="target">
                                 <rect key="frame" x="38" y="611" width="300" height="40"/>
                                 <color key="backgroundColor" red="0.36470588240000001" green="0.72941176470000002" blue="0.84705882349999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -484,6 +489,11 @@
                                 <state key="normal" title="Register">
                                     <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="btnRegisterTapped:" destination="293-ba-xb0" eventType="touchUpInside" id="cZx-8d-n29"/>
                                 </connections>
