@@ -14,6 +14,7 @@ typealias completionHandler = (_ Success: Bool) ->()
 let SHOW_LOGIN = "show_login"
 let SHOW_REGISTER = "show_register"
 let UNWIND_TO_CHANNEL = "unwind_to_channel"
+let TO_AVATAR_PICKER = "to_avatar_picker"
 
 
 //user defaults
@@ -35,3 +36,8 @@ let HEADER = [
     "Content-Type": "application/json; charset=utf-8"
 ]
 
+
+
+//Notifications
+
+let NOTIF_USER_DATA_DID_CHANGE = Notification.Name("notifUserDataChanged")

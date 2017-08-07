@@ -22,9 +22,6 @@ class UserDataService {
  public private(set) var name = ""
  public private(set) var email = ""
     
-    
-    
-    
     func setUserData(id: String, color: String, avatarName: String, name: String, email: String){
         self.id  = id
         self.avatarColor = color
@@ -40,4 +37,44 @@ class UserDataService {
     }
     
     
+    func returnUIColor(components: String)->UIColor {
+        let scanner = Scanner(string: components)
+        let skipped = CharacterSet(charactersIn: "[], ")
+        let comma =  CharacterSet(charactersIn: ",")
+        scanner.charactersToBeSkipped = skipped
+        
+        var r,g,b,a: NSString?
+        
+        
+        scanner.scanUpToCharacters(from: comma, into: &r)
+        scanner.scanUpToCharacters(from: comma, into: &g)
+        scanner.scanUpToCharacters(from: comma, into: &b)
+        scanner.scanUpToCharacters(from: comma, into: &a)
+        
+        let defaultColor = UIColor.lightGray
+        
+        guard let rUnwrapped = r else {
+            return defaultColor
+        }
+        
+        guard let gUnwrapped = r else {
+            return defaultColor
+        }
+        
+        guard let bUnwrapped = r else {
+            return defaultColor
+        }
+        guard let aUnwrapped = r else {
+            return defaultColor
+        }
+        
+        
+        let rFloat = CGFloat(rUnwrapped.doubleValue)
+        let gFloat = CGFloat(gUnwrapped.doubleValue)
+        let bFloat = CGFloat(bUnwrapped.doubleValue)
+        let aFloat = CGFloat(aUnwrapped.doubleValue)
+        
+        let newColor = UIColor(red: rFloat, green: gFloat, blue: bFloat, alpha: aFloat)
+        return  newColor
+    }
 }

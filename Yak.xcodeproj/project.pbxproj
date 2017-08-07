@@ -22,12 +22,15 @@
 		5E5AD7F51F2ABF0900C47EE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E5AD7F31F2ABF0900C47EE0 /* LaunchScreen.storyboard */; };
 		5E5AD8001F2ABF0900C47EE0 /* YakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5AD7FF1F2ABF0900C47EE0 /* YakTests.swift */; };
 		5E5AD80B1F2ABF0900C47EE0 /* YakUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5AD80A1F2ABF0900C47EE0 /* YakUITests.swift */; };
-		5E5DD9961F2C599200A5BBFD /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5DD9951F2C599100A5BBFD /* SWRevealViewController.m */; };
 		5E5DD99B1F2C5C5200A5BBFD /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5DD99A1F2C5C5200A5BBFD /* ChatVC.swift */; };
 		5E5DD99D1F2C5C6400A5BBFD /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5DD99C1F2C5C6400A5BBFD /* ChannelVC.swift */; };
 		5E624A161F2E65B800466FE2 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E624A151F2E65B800466FE2 /* AuthService.swift */; };
 		5E624A181F2E7A7F00466FE2 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E624A171F2E7A7F00466FE2 /* RoundedButton.swift */; };
 		5E624A1A1F2F0F1400466FE2 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E624A191F2F0F1400466FE2 /* UserDataService.swift */; };
+		5E69777B1F36EC02009DEBF8 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E69777A1F36EC02009DEBF8 /* SWRevealViewController.m */; };
+		5E69777D1F36F69C009DEBF8 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E69777C1F36F69C009DEBF8 /* CircleImage.swift */; };
+		5E8E32DF1F312BF00018F5EF /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8E32DE1F312BF00018F5EF /* AvatarPickerVC.swift */; };
+		5E8E32E11F312DC20018F5EF /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8E32E01F312DC20018F5EF /* AvatarCell.swift */; };
 		7A01AE4D10875FCC08943FC8 /* Pods_Yak.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6F9C280F1563924C30BCBD9 /* Pods_Yak.framework */; };
 /* End PBXBuildFile section */
 
@@ -73,13 +76,16 @@
 		5E5AD80A1F2ABF0900C47EE0 /* YakUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YakUITests.swift; sourceTree = "<group>"; };
 		5E5AD80C1F2ABF0900C47EE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E5DD9931F2C599000A5BBFD /* Yak-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Yak-Bridging-Header.h"; sourceTree = "<group>"; };
-		5E5DD9941F2C599100A5BBFD /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "../../../Downloads/Smack Assets/SWReveal/SWRevealViewController.h"; sourceTree = "<group>"; };
-		5E5DD9951F2C599100A5BBFD /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = "../../../Downloads/Smack Assets/SWReveal/SWRevealViewController.m"; sourceTree = "<group>"; };
 		5E5DD99A1F2C5C5200A5BBFD /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		5E5DD99C1F2C5C6400A5BBFD /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		5E624A151F2E65B800466FE2 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		5E624A171F2E7A7F00466FE2 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		5E624A191F2F0F1400466FE2 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
+		5E6977791F36EBF9009DEBF8 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "../../../../Downloads/SWRevealViewController-master/SWRevealViewController/SWRevealViewController.h"; sourceTree = "<group>"; };
+		5E69777A1F36EC02009DEBF8 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = "../../../../Downloads/SWRevealViewController-master/SWRevealViewController/SWRevealViewController.m"; sourceTree = "<group>"; };
+		5E69777C1F36F69C009DEBF8 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		5E8E32DE1F312BF00018F5EF /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
+		5E8E32E01F312DC20018F5EF /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
 		6AC45C82ECBF1FBC08B2B1E5 /* Pods-YakTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YakTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YakTests/Pods-YakTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A025D3DAC03E18424E247D76 /* Pods-Yak-YakUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yak-YakUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Yak-YakUITests/Pods-Yak-YakUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		CD9C496DE903B4E6B6E5A12D /* Pods_YakTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YakTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -137,8 +143,6 @@
 		5E5AD7DE1F2ABF0900C47EE0 = {
 			isa = PBXGroup;
 			children = (
-				5E5DD9941F2C599100A5BBFD /* SWRevealViewController.h */,
-				5E5DD9951F2C599100A5BBFD /* SWRevealViewController.m */,
 				5E5AD7E91F2ABF0900C47EE0 /* Yak */,
 				5E5AD7FE1F2ABF0900C47EE0 /* YakTests */,
 				5E5AD8091F2ABF0900C47EE0 /* YakUITests */,
@@ -162,6 +166,8 @@
 		5E5AD7E91F2ABF0900C47EE0 /* Yak */ = {
 			isa = PBXGroup;
 			children = (
+				5E69777A1F36EC02009DEBF8 /* SWRevealViewController.m */,
+				5E6977791F36EBF9009DEBF8 /* SWRevealViewController.h */,
 				5E624A141F2E658B00466FE2 /* Services */,
 				5E2231361F2C7593006DBB17 /* Utils */,
 				5E5DD9971F2C5C0E00A5BBFD /* Model */,
@@ -209,6 +215,7 @@
 				5E5DD99C1F2C5C6400A5BBFD /* ChannelVC.swift */,
 				5E17FDF61F2CB17500FF3642 /* LoginVCView.swift */,
 				5E17FDFA1F2CC6E900FF3642 /* RegisterVC.swift */,
+				5E8E32DE1F312BF00018F5EF /* AvatarPickerVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -219,6 +226,8 @@
 				5E2231341F2C6C15006DBB17 /* GradientView.swift */,
 				5E17FDF81F2CB42400FF3642 /* FloatingTextFeild.swift */,
 				5E624A171F2E7A7F00466FE2 /* RoundedButton.swift */,
+				5E8E32E01F312DC20018F5EF /* AvatarCell.swift */,
+				5E69777C1F36F69C009DEBF8 /* CircleImage.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -527,6 +536,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E5DD99B1F2C5C5200A5BBFD /* ChatVC.swift in Sources */,
+				5E8E32DF1F312BF00018F5EF /* AvatarPickerVC.swift in Sources */,
 				5E5AD7ED1F2ABF0900C47EE0 /* ViewController.swift in Sources */,
 				5E624A1A1F2F0F1400466FE2 /* UserDataService.swift in Sources */,
 				5E17FDF71F2CB17500FF3642 /* LoginVCView.swift in Sources */,
@@ -535,7 +545,9 @@
 				5E17FDFB1F2CC6E900FF3642 /* RegisterVC.swift in Sources */,
 				5E5AD7EB1F2ABF0900C47EE0 /* AppDelegate.swift in Sources */,
 				5E2231381F2C75A9006DBB17 /* Constants.swift in Sources */,
-				5E5DD9961F2C599200A5BBFD /* SWRevealViewController.m in Sources */,
+				5E8E32E11F312DC20018F5EF /* AvatarCell.swift in Sources */,
+				5E69777D1F36F69C009DEBF8 /* CircleImage.swift in Sources */,
+				5E69777B1F36EC02009DEBF8 /* SWRevealViewController.m in Sources */,
 				5E5DD99D1F2C5C6400A5BBFD /* ChannelVC.swift in Sources */,
 				5E22313A1F2C7B98006DBB17 /* Extension.swift in Sources */,
 				5E17FDF91F2CB42400FF3642 /* FloatingTextFeild.swift in Sources */,
